@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-tut"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "python_tut"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyleniumio = "^1.17.2"
+selenium = "^4.5.0"
+pytest = "^7.2.0"
+pytest-xdist = "^3.0.2"
+autopep8 = "^2.0.0"
+flake8 = "^5.0.4"
+webdriver-manager = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
